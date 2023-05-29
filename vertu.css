@@ -132,9 +132,11 @@ img:hover{
 }
 
 #explore {
+    width: 100%;
     text-align: center;
     height: fit-content;
     margin-top: 50px;
+    margin-right: 0;
 
     
     
@@ -435,13 +437,14 @@ td:nth-child(even){
         border-color: black;
         border-width: 2px;
         overflow: hidden;
-        width: auto\9;
+        width: 100%;
         margin: auto;
-        margin-top: -10px;
+        margin-right: 0%;
+        /* margin-top: -10px; */
     }
 #explore img{
     width: 100%;
-    min-height: 45vh;
+    min-height: 100%;
 }
 .textbox{
     position:relative ;
@@ -495,7 +498,7 @@ Button{
         margin: auto;
         overflow-y: scroll;
         scroll-behavior: smooth;
-        
+        justify-content: center;        
     }
 
     #products::before{
@@ -504,11 +507,15 @@ Button{
     }
 
     .eachcar{
-        width: 90%;
+        width: 80%;
         min-height: 250px;
         margin: unset;
         margin: auto;
         margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0;
+        box-shadow: 1px 1px 5px black;
+        border-left: 0.3px  ridge black;
     }
 
     .eachcar img{
@@ -517,11 +524,10 @@ Button{
     }
 
     #bmwinterior{
+        width: 100%;
         display:block;
         padding: 0;
-        min-height: 600px;
-        margin-bottom: 5px;
-
+        min-height: 450px;
     }
     #bmwinterior img{
         border-radius: 0;
@@ -538,6 +544,7 @@ Button{
     }
     .bmwinterior_text h1{
         font-size: x-large;
+        text-align: left;
     }
     .bmwinterior_text p{
         font-size: smaller;
