@@ -343,6 +343,7 @@ td:nth-child(even){
         width: 100%;
         padding: 0;
         padding-top: 10px;
+        height: 40px;
 
     }
 
@@ -356,8 +357,8 @@ td:nth-child(even){
 
 #mobile {
     width: 20%;
-    margin-top: -15px;
-    max-height: auto;
+    margin-top: -15px;    
+    max-height: auto;    
     margin-left: -35%;
 }
     button.mobile{
@@ -379,10 +380,8 @@ td:nth-child(even){
       min-width: max-content;
       text-align: center;
       padding: 0px,0;
-      /* border: 0.2px solid black; */
       background-color: white;
       border-radius: unset;
-      /* font-size: smaller; */
   }  
 .desktop button {
     display: none;
@@ -391,9 +390,10 @@ td:nth-child(even){
     display: block;
     margin-top: 30px;
     position: relative;
-    margin-left: -45%;
+    margin-left: -35%;
     font-size: small;
     display: block;
+    z-index: 99;
     
 }
 .services .material-symbols-outlined{
