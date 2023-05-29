@@ -26,6 +26,8 @@ header{
     margin: 0%;
     justify-content: space-between;
     background: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
     z-index: 1;
 
 }
@@ -132,7 +134,7 @@ img:hover{
 #explore {
     text-align: center;
     height: fit-content;
-    margin-top: 60px;
+    margin-top: 50px;
 
     
     
@@ -357,8 +359,13 @@ td:nth-child(even){
 
 #mobile {
     width: 20%;
-    margin-top: -15px;    
-    max-height: auto;    
+    margin-top: -15px;
+    /* background-image: url("Vertu.png"); */
+    /* height: 150px; */
+    max-height: auto;
+    /* border: 3px solid black; */
+    /* background-color: red; */
+    /* margin-bottom: -20px; */
     margin-left: -35%;
 }
     button.mobile{
