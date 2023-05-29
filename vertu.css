@@ -11,6 +11,7 @@ body{
 }
 span {
     color: black;
+}
 img{
     user-select: none;  
     transition: transform .2s;
