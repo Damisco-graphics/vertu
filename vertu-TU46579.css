@@ -1,0 +1,258 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+
+::selection{
+    background: red;
+    color: white;
+}
+
+
+header{
+    padding-top: 20px;
+
+    display: flex;
+    margin: 0% 3%;
+    justify-content: space-between;
+
+}
+
+header img{
+    margin-top: -45px;
+    width: 10% ;
+}
+
+.services{
+    /* padding-top: 20px; */
+    width: fit-content;
+    display: flex;
+    /* margin: auto; */
+    justify-content: space-between;
+}
+
+header button{
+    height:30px;
+    text-align: end; 
+    background-color: white;
+    border: none;
+}
+
+.material-symbols-outlined{
+     font-size: 10px;
+}
+
+input{
+    width: 24%;
+    height: 25px;
+    padding-left: 15px;
+    text-decoration: red;
+    font-weight: bolder;
+    border-color: gray;
+    border-width: 0.2px;
+    border-radius: 30px;
+    
+}
+.login{
+    display: flex;
+    width: 10%;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.location{
+
+    /* width: 5%; */
+    font-size: 20px;
+}
+
+
+/* Background Picture */
+#explore {
+    /* position: relative; */
+    text-align: center;
+    /* background-image: url("../pics/Microsoft.png"); */
+    height: fit-content;
+
+    
+    
+}
+
+
+
+.textbox{
+    position: absolute;
+    margin-left: 7%;
+    bottom: 48%;
+    width: 23%;
+    color: white;
+    word-wrap: break-word;
+    font-size: larger;
+    text-align: left;
+
+}
+
+Button{
+    height: 40px;
+    border-radius: 5px;
+    background-color: cyan;
+    border-color: aquamarine;
+}
+
+section{
+    position: relative;
+    margin: auto 5%;
+}
+
+#products{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    
+    
+}
+
+#products::-webkit-scrollbar{
+    appearance: none;
+}
+ #products::before{
+     position: absolute;
+     content: "";
+     left: 0;
+     top: 0%;
+     /* z-index: 1; */
+     height: 99%;
+     width: 20px;
+     background-image: linear-gradient(90deg, grey, transparent);
+     border-bottom-left-radius: 25px;
+     padding-bottom: 10px;
+ }
+ 
+
+.roundbuttn{
+    position: absolute;
+    bottom: 250px;
+    z-index: 99;
+}
+.roundbuttn Button{
+    text-indent: 5px;
+    background-color: white;
+    border-radius: 50%;
+    padding-left: 5px;
+    border-color: white;
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;
+}
+
+.roundbuttn Button:hover{
+    background-color: black;
+    color: white;
+}
+
+.rndbtn{
+    margin: auto;
+    font-size: x-large;
+}
+
+.eachcar{
+    min-width: 30%;
+    min-height: 450px;
+    border-style: ridge;
+    border-width: 1px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding-left: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    overflow-x: hidden;
+}
+
+.eachcar img{
+    height: 35%;
+    border-radius: 20px;
+    /* margin-top: -90px; */
+    /* margin-bottom: -100px; */
+
+}
+
+
+
+
+/* BMW Interior */
+#bmwinterior{
+    /* position: relative; */
+    margin-top: 50px;
+    height: 450px;
+    background: #c3c3c3;
+    padding: 50px 100px;
+}
+
+
+.bmwinterior_text{
+    /* position: absolute; */
+    width: 40%;
+    float: left;
+    color: black;
+    font-size: larger;
+    margin-top: 100px;
+    word-wrap: break-word;
+}
+
+
+
+#bmwinterior img{
+    /* position: absolute; */
+    float: right;
+    width: 45%;
+    border-radius: 30px;
+}
+
+.right{
+    right: 10px;
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #232b2b;
+    /* color: white; */
+    padding: 50px 150px;
+}
+
+#footer img{
+    margin: auto;
+    float: left;
+    width: 45%;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.footertext{
+    
+    color: white;
+    margin: auto;
+    float: right;
+    font-size: larger;
+
+}
+
+table{
+    /* margin-right: 30px; */
+    border: 2px line white;
+}
+tr, td{
+    width: 180px;
+}
+
+tr :nth-child(even){
+    margin-left: 100px;
+}
+
+td :nth-child(even){
+    margin-left: 100px;
+}
