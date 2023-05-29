@@ -171,6 +171,7 @@ Button{
     height: 40px;
     border-radius: 5px;
     background-color: cyan;
+    color: black;
     border-color: aquamarine;
     cursor: pointer ;
 }
@@ -412,7 +413,7 @@ td:nth-child(even){
     margin-top: -4px;
 }
   .services button:hover{
-      background-color: red;
+      background-color: aqua;
   }
 
 .hide{
