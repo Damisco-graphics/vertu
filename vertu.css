@@ -442,10 +442,7 @@ td:nth-child(even){
         margin-right: 0%;
         /* margin-top: -10px; */
     }
-#explore img{
-    width: 100%;
-    min-height: 100%;
-}
+
 .textbox{
     position:relative ;
     margin: unset;
