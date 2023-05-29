@@ -369,7 +369,7 @@ td:nth-child(even){
     /* border: 3px solid black; */
     /* background-color: red; */
     /* margin-bottom: -20px; */
-    margin-left: -35%;
+    margin-left: -22%;
 }
     button.mobile{
         margin-top: 40px;
@@ -421,7 +421,7 @@ td:nth-child(even){
 .login{
         right: 0;
         margin: unset;
-        width:25%;
+        width:35%;
         margin-top: 2.5px;
         margin-right: 5%;
         font-size: medium;        
